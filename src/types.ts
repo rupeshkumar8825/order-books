@@ -2,7 +2,7 @@
 // since in order to validate whether the data that we are receiving in the request 
 // is following the correct format or not we will have to validate the schema 
 // so zod is for schema validation itself 
-import z from "zod"
+import { z }from "zod"
 
 // the following validates the order input schema so that the user do not send any gibberish 
 export const OrderInputSchema = z.object({
